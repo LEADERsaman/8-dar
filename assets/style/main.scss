@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: "f1";
+    src: url("../fonts/LibreBaskerville-Bold.ttf");
+}
+body{
+    background-color: #EFEEE8;
+}
+.destkop{
+    max-width: 1440px;
+    height: 6800px;
+    margin: 0px auto;
+    background-color:transparent;
+    border: 1px solid black;
+}
+@import "./header";
+@import "./boy2";

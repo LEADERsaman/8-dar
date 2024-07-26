@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "f1";
+  src: url("../fonts/LibreBaskerville-Bold.ttf");
+}
+body {
+  background-color: #EFEEE8;
+}
+
+.destkop {
+  max-width: 1440px;
+  height: 6800px;
+  margin: 0px auto;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+header nav {
+  height: 80px;
+  border: 1px solid black;
+  padding-left: 52px;
+  padding-top: 24px;
+  display: flex;
+  gap: 423px;
+}
+header nav .box {
+  display: flex;
+}
+header nav .img {
+  width: 187px;
+  height: 34px;
+  cursor: pointer;
+}
+header nav .sel1 {
+  width: 139px;
+  height: 62px;
+  background-color: transparent;
+  margin-top: -14px;
+  border: 1px solid transparent;
+}
+header nav .p1 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 7px;
+  margin-left: 16px;
+  transition: 1s;
+  cursor: pointer;
+}
+header nav .p1:hover {
+  color: red;
+  transition: 1s;
+}
+header nav .box2 {
+  width: 254px;
+  height: 79px;
+  border: 1px solid transparent;
+  margin-top: -24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+  transition: 1s;
+  margin-left: 60px;
+}
+header nav .box2:hover {
+  background-color: red;
+  transition: 1s;
+  cursor: pointer;
+}
+header .header_boy {
+  width: 890px;
+  height: 362px;
+  margin: 80px auto;
+}
+header .header_boy .p3 {
+  font-family: "f1";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.6px;
+  text-align: center;
+}
+header .header_boy .p4 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36.3px;
+  text-align: center;
+  color: #333333;
+  margin-top: 29px;
+}
+header .btn1 {
+  width: 242px;
+  height: 64px;
+  background-color: #333333;
+  color: white;
+  margin-top: 35px;
+  margin-left: 324px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+header .btn1:hover {
+  background-color: blue;
+  transition: 0.5s;
+  color: black;
+}
+
+.boy2 {
+  width: 1240px;
+  height: 822px;
+  margin: 80px auto;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  display: flex;
+  gap: 54px;
+}
+.boy2 .box_boy {
+  width: 560px;
+  height: 822px;
+  border: 1px solid red;
+  padding-top: 79px;
+  padding-left: 48px;
+}
+.boy2 .box_boy .l1 {
+  font-family: "f1";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 28px;
+}
+.boy2 .box_boy .l2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.7px;
+  text-align: left;
+  color: rgba(51, 51, 51, 0.8980392157);
+}
+.boy2 .box_boy .ox {
+  width: 512px;
+  height: 412px;
+  margin-top: 51px;
+}
+.boy2 .box_boy .ox .l3 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23.1px;
+  text-align: left;
+}
+.boy2 .box_boy .ox .l4 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  margin-top: 31px;
+  margin-bottom: 16px;
+}
+.boy2 .box_boy .ox .l5 {
+  font-size: 16px;
+  width: 468px;
+  color: #333333;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  margin-top: 19px;
+  margin-bottom: 13px;
+}/*# sourceMappingURL=main.css.map */

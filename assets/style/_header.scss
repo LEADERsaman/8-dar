@@ -1,0 +1,99 @@
+header{
+nav{
+height: 80px;
+border: 1px solid black;
+padding-left: 52px;
+padding-top: 24px;
+display: flex;
+gap: 423px;
+.box{
+    display: flex;
+}
+.img{
+    width: 187px;
+    height: 34px;
+    cursor: pointer;
+}
+.sel1{
+    width: 139px;
+    height: 62px;
+    background-color: transparent;
+    margin-top: -14px;
+    border: 1px solid transparent;
+}
+.p1{
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-top: 7px;
+margin-left: 16px;
+    transition: 1s;
+    cursor: pointer;
+&:hover{
+    color: red;
+    transition: 1s;
+}
+
+}
+.box2{
+    width: 254px;
+    height: 79px;
+    border: 1px solid transparent;
+    margin-top: -24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid black;
+        transition: 1s;
+        margin-left: 60px;          
+    &:hover{
+        background-color: red;
+        transition: 1s;
+        cursor: pointer;
+    }
+}
+}
+
+.header_boy{
+    width: 890px;
+    height: 362px;
+    margin: 80px auto;
+    .p3{
+        font-family: "f1";
+font-size: 64px;
+font-weight: 700;
+line-height: 73.6px;
+text-align: center;
+
+    }
+    .p4{
+font-size: 22px;
+font-weight: 400;
+line-height: 36.3px;
+text-align: center;
+color: #333333;
+margin-top: 29px;
+
+    }
+}
+.btn1{
+    width: 242px;
+    height: 64px;
+    background-color: #333333;
+    color: white;
+    margin-top: 35px;
+    margin-left: 324px;
+        transition: .5s;
+        cursor: pointer;
+    &:hover{
+        background-color: blue;
+        transition: .5s;
+        color: black;
+
+    }
+}
+
+
+
+}
